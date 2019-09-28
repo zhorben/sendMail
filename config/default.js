@@ -4,9 +4,11 @@ require('dotenv').config()
 
 module.exports = {
   server: {
+    // http://localhost
     siteHost: process.env.SITE_HOST
   },
   mailer: {
+    // transport, aws
     transport: process.env.MAIL_TRANSPORT,
     gmail: {
       user: process.env.MAIL_USER,
@@ -29,6 +31,7 @@ module.exports = {
     }
   },
   mongoose: {
+    // mongodb://localhost/mailer
     uri:     process.env.MAIL_SIGNATURE.MONGOOSE_URI,
     options: {
       useNewUrlParser: true,
