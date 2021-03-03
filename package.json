@@ -15,7 +15,7 @@
     "nodemailer-ses-transport": "^1.5.1",
     "nodemailer-smtp-transport": "^2.7.4",
     "nodemailer-stub-transport": "^1.1.0",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
